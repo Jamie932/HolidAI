@@ -10,7 +10,7 @@ sia = SIA()
 comments = []
 count = 0
 
-for submission in subreddit.top('day'): 
+for submission in subreddit.top('week'): 
 	for comment in submission.comments:
 			if hasattr(comment, "body") and comment.distinguished==None:
 				count += 1
