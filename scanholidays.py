@@ -4,7 +4,7 @@ import pycountry
 from nltk.sentiment.vader import SentimentIntensityAnalyzer as SIA
 from tabulate import tabulate
 
-reddit = praw.Reddit(client_id='V8_4nOhk63r1ew', client_secret="IMIO-HQFsK1rArL9ZdubTZKdVHo", user_agent='windows:com.Jamie932.holidai:v1.0.0 (by /u/jamie932)')
+reddit = praw.Reddit(client_id='***REMOVED***', client_secret="***REMOVED***", user_agent='windows:com.Jamie932.holidai:v1.0.0 (by /u/jamie932)')
 subreddit = reddit.subreddit('travel+solotravel+backpacking+earthporn')
 sia = SIA()
 comments = []
